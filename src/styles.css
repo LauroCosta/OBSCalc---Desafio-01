@@ -1,0 +1,91 @@
+main {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  max-width: 25rem;
+  gap: 2rem;
+  padding: 2rem;
+
+  border-radius: 1rem;
+  background: #F1F1F1;
+  box-shadow:  5px 5px 10px #cacaca,
+               -5px -5px 10px #ffffff;
+}
+
+h1{
+  display: flex;
+  align-items: center;
+  color: #767676;
+  font-weight: 400;
+}
+
+#operator {
+  background-color: blue;
+  height: 3.5rem;
+  width: 8rem;
+  border: none;
+  border-radius: 0.50rem 1.25rem;
+  color: #fff;
+  transition: filter 0.2s;
+}
+
+#operator:hover {
+  filter: brightness(0.9);
+}
+
+input {
+  height: 5rem;
+  width: 10rem;
+  border: none;
+  text-align: center;
+  color: #767676; 
+  font-size: 2.5rem;
+  font-weight: 500;
+  border-radius: 6px;
+  background: #f1f1f1;
+  box-shadow: inset 5px 5px 10px #cacaca,
+              inset -5px -5px 10px #ffffff;
+
+}
+
+.result {
+  text-align: right;
+  width: 100%;
+  padding: 1rem;
+  font-size: 3rem;
+  color: #767676;
+  font-weight: 500;
+}
+
+.inputsNumbers{
+  display: flex;
+  gap: 1rem;
+}
+
+.operators {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.operators button{
+  height: 4.25rem;
+  width: 4.25rem;
+  border: none;
+  border-radius: 0.50rem;
+  transition: filter 0.2s;
+  background: #F1F1F1;
+  box-shadow:  5px 5px 10px #cacaca,
+               -5px -5px 10px #ffffff;
+}
+
+.operators button:hover{
+  filter: opacity(0.7)
+}
+
+.operators .active {
+  background: #f1f1f1;
+  box-shadow: inset 5px 5px 10px #cacaca,
+              inset -5px -5px 10px #ffffff;
+}
