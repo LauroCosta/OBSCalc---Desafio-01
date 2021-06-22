@@ -20,13 +20,10 @@ $ git clone https://github.com/LauroCosta/OBSCalc---Desafio-01 && cd OBSCalc---D
 
 ```bash
 # Instale as dependências
-$ yarn
-
-# Execute o servidor que simula um back-end
-$ yarn server
+$ npm
 
 # Execute o servidor web
-$ yarn dev
+$ npm start
 ```
 
 O aplicativo estará disponível para acesso em seu navegador em `http://localhost:3000`
