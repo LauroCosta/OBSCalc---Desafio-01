@@ -2,7 +2,7 @@
 ## OBS Calc
 
 <h4 align="center">
-  Desafio 01 - O desafio consiste na implementação de um calculadora simples, que realiza operações de dois números.
+  Desafio 01 - O desafio consiste na implementação de uma calculadora simples, que realiza operações de dois números.
 </h4>
 
 ![Calc preview](.github/obscalc.gif)
