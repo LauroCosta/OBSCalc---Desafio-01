@@ -13,7 +13,7 @@
 - [Typescript](https://www.typescriptlang.org/)
 
 ```bash
-$ git clone https://github.com/LauroCosta/OBSCalc---Desafio-01 && cd OBSCalc---Desafio-0
+$ git clone https://github.com/LauroCosta/OBSCalc---Desafio-01 && cd OBSCalc---Desafio-01
 ```
 
 **Siga os passos abaixo**
