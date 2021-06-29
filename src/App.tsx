@@ -55,6 +55,7 @@ export default function App() {
           type="number" 
           onChange={handleInputChange}
         />
+        
         <input 
           id="input2"
           type="number" 
